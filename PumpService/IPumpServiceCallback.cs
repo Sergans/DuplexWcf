@@ -12,6 +12,6 @@ namespace PumpService
     {
 
         [OperationContract(IsOneWay = true)]
-        void UpdateStatistics();
+        void UpdateStatistics(StatisticsService statisticsService);
     }
 }
