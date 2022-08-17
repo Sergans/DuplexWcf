@@ -9,7 +9,7 @@ namespace PumpService
     {
         public SettingsService()
         {
-            FileName = @"C:\scripts\Sample.script";
+            FileName = @"C:\Users\GANS\Desktop\SoapWcfHomework\Sample.script";
         }
 
         public string FileName { get; set; }
